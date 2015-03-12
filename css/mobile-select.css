@@ -1,0 +1,29 @@
+.mobile-select {
+  clear: both;
+  border:2px solid #666;
+  width: 100%;
+  height: 3em;
+  padding:   0px 10px;
+  position:   relative;
+  box-sizing:border-box;
+}
+
+.mobile-select:after {
+  content: "\f078";
+  font-family: 'FontAwesome';
+  float: right;
+  line-height: 3em;
+}
+
+.mobile-select span {
+  line-height:  3em;
+}
+
+.mobile-select select {
+    height: inherit;
+    width:  inherit;
+    opacity:  0;
+    position:   absolute;
+    top:  0;
+    left:   0;
+}
